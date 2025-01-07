@@ -23,18 +23,15 @@
  <img id="random-gif" src="" alt="Zufälliges GIF">
 
     <script>
-        // Liste der verfügbaren GIFs
         const gifs = [
             "200.gif",
             "200w.gif",
             "daftpunk-eyebrows.gif"
         ];
 
-        // Zufälliges GIF auswählen
         const randomIndex = Math.floor(Math.random() * gifs.length);
         const randomGif = gifs[randomIndex];
 
-        // GIF in das <img>-Tag einfügen
         document.getElementById("random-gif").src = randomGif;
     </script>
 </body>
